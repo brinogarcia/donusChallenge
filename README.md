@@ -9,7 +9,7 @@ Na chamada de listagem é necessário apenas passar o parâmetro para o tipo de 
 nivel_censura (CENSURADO ou SEM_CENSURA) caso passe outro valor será retornado erro.
 
 Na chamada de criação do filme é necessário passar um JSON :
-'''json
+```json
 {
 	"nome": "Sexto-Sentido",
 	"dataLancamento": "1989-10-30",
@@ -21,7 +21,7 @@ Na chamada de criação do filme é necessário passar um JSON :
    	"NOME-ATOR-3"   
 	]
 }
-'''
+```
 Caso o seja enviado um filme com um nome que já esteja cadastrado ou com número de atores maior que 10 retornará erro!
 
 A estrutura ficou organizada da Seguinte forma:
